@@ -10,4 +10,10 @@ df.head()
 
 ------//////////////-------------------////
 
+# We solved this one for you by providing the number of rows and columns:
+# You can see how we are prompted that we solved for the number of rows and cols correctly!
 
+num_rows = df.shape[0] #Provide the number of rows in the dataset
+num_cols = df.shape[1] #Provide the number of columns in the dataset
+
+t.check_rows_cols(num_rows, num_cols) 
